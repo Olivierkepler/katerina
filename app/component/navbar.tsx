@@ -22,8 +22,8 @@ export default function Navbar() {
           <nav className="hidden md:flex space-x-8">
             <NavItem href="/">Home</NavItem>
             <NavItem href="/about">About</NavItem>
-            {/* <NavItem href="/projects">Projects</NavItem>
-            <NavItem href="/contact">Contact</NavItem> */}
+            <NavItem href="/projects">Projects</NavItem>
+            {/* <NavItem href="/contact">Contact</NavItem> */}
           </nav>
 
           {/* Mobile menu button */}
@@ -41,8 +41,8 @@ export default function Navbar() {
           <div className="px-4 pt-2 pb-4 space-y-2">
             <MobileNavItem href="/">Home</MobileNavItem>
             <MobileNavItem href="/about">About</MobileNavItem>
-            {/* <MobileNavItem href="/projects">Projects</MobileNavItem>
-            <MobileNavItem href="/contact">Contact</MobileNavItem> */}
+            <MobileNavItem href="/projects">Projects</MobileNavItem>
+            {/* <MobileNavItem href="/contact">Contact</MobileNavItem> */}
           </div>
         </div>
       )}
