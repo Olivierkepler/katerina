@@ -11,7 +11,7 @@ export default function About() {
         {/* Optional profile image */}
         <div className="w-full md:w-1/3">
           <Image
-            src="/katterine.jpg" // replace with your actual image path in /public
+            src="/katterine.png" // replace with your actual image path in /public
             alt="Katterine portrait"
             width={300}
             height={300}
