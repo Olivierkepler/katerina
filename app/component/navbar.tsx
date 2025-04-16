@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-gray-800">
-            Katterine<span className="text-blue-600">.</span>
+            Katterina<span className="text-blue-600">.</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -41,8 +41,8 @@ export default function Navbar() {
           <div className="px-4 pt-2 pb-4 space-y-2">
             <MobileNavItem href="/">Home</MobileNavItem>
             <MobileNavItem href="/about">About</MobileNavItem>
-            <MobileNavItem href="/projects">Projects</MobileNavItem>
-            <MobileNavItem href="/contact">Contact</MobileNavItem>
+            {/* <MobileNavItem href="/projects">Projects</MobileNavItem>
+            <MobileNavItem href="/contact">Contact</MobileNavItem> */}
           </div>
         </div>
       )}
